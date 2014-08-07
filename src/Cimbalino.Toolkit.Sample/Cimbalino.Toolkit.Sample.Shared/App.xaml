@@ -1,0 +1,22 @@
+﻿<Application
+    x:Class="Cimbalino.Toolkit.Sample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="using:Cimbalino.Toolkit.Sample.ViewModels"
+    RequestedTheme="Light"
+    xmlns:local="using:Cimbalino.Toolkit.Sample">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator  x:Key="Locator" />
+
+
+            <ResourceDictionary.MergedDictionaries>
+                <!--<ResourceDictionary Source="Assets/Colors.xaml" />
+                <ResourceDictionary Source="Assets/Local.xaml" />
+                <ResourceDictionary Source="Assets/Global.xaml" />-->
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
